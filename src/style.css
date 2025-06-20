@@ -1,0 +1,243 @@
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+}
+
+body {
+
+  font-family: 'Segoe UI', sans-serif;
+
+  line-height: 1.6;
+
+  background: #f9f9f9;
+
+  color: #333;
+
+}
+
+header {
+
+  background: linear-gradient(135deg, #0872b9, #38ef7d);
+
+  color: white;
+
+  text-align: center;
+
+  padding: 80px 20px;
+
+}
+
+header h1 {
+
+  font-size: 2.8em;
+
+  margin-bottom: 10px;
+
+}
+
+header p {
+
+  font-size: 1.2em;
+
+  margin-bottom: 20px;
+
+}
+
+header button {
+
+  background: #ffce00;
+
+  border: none;
+
+  padding: 15px 30px;
+
+  font-size: 1em;
+
+  cursor: pointer;
+
+  color: #000;
+
+  border-radius: 8px;
+
+  transition: background 0.3s;
+
+}
+
+header button:hover {
+
+  background: #ffe85f;
+
+}
+
+.cta-section {
+
+  background: white;
+
+  padding: 60px 20px;
+
+  text-align: center;
+
+}
+
+.cta-section h2 {
+
+  font-size: 2em;
+
+  margin-bottom: 10px;
+
+}
+
+.cta-section form {
+
+  margin-top: 20px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 15px;
+
+  max-width: 400px;
+
+  margin-inline: auto;
+
+}
+
+.cta-section input,
+
+.cta-section button {
+
+  padding: 12px;
+
+  font-size: 1em;
+
+  border-radius: 6px;
+
+}
+
+.cta-section input {
+
+  border: 1px solid #ccc;
+
+}
+
+.cta-section button {
+
+  background: #0872b9;
+
+  color: white;
+
+  border: none;
+
+}
+
+.cta-section button:hover {
+
+  background: #0a5e99;
+
+}
+
+.testimonials {
+
+  background: #f0f8ff;
+
+  padding: 60px 20px;
+
+  text-align: center;
+
+}
+
+.testimonials h2 {
+
+  font-size: 2em;
+
+  margin-bottom: 30px;
+
+}
+
+.testimonial-cards {
+
+  display: flex;
+
+  gap: 20px;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+}
+
+.card {
+
+  background: white;
+
+  padding: 20px;
+
+  max-width: 300px;
+
+  border-radius: 10px;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+
+}
+
+.gallery {
+
+  background: #fff;
+
+  padding: 60px 20px;
+
+  text-align: center;
+
+}
+
+.gallery h2 {
+
+  font-size: 2em;
+
+  margin-bottom: 30px;
+
+}
+
+.image-grid {
+
+  display: flex;
+
+  gap: 20px;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+}
+
+.image-grid img {
+
+  border-radius: 12px;
+
+  width: 300px;
+
+  height: 200px;
+
+  object-fit: cover;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+}
+
+footer {
+
+  background: #222;
+
+  color: #ccc;
+
+  text-align: center;
+
+  padding: 20px;
+
+}
